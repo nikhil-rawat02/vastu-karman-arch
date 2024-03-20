@@ -37,6 +37,22 @@ h6,
     z-index: 99;
 }
 
+.sticky-call {
+    position: fixed;
+
+    right: 30px;
+    bottom: 140px;
+    z-index: 99;
+}
+
+.sticky-whats-app {
+    position: fixed;
+    right: 30px;
+    bottom: 85px;
+    z-index: 99;
+    background-color: white !important;
+}
+
 
 /*** Spinner ***/
 #spinner {

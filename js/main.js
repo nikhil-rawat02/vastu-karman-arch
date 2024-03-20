@@ -39,6 +39,23 @@
         return false;
     });
 
+        // Hide and show call button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.sticky-call').fadeIn('slow');
+        } else {
+            $('.sticky-call').fadeOut('slow');
+        }
+    });
+        
+    // Hide and show whats app button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.sticky-whats-app').fadeIn('slow');
+        } else {
+            $('.sticky-whats-app').fadeOut('slow');
+        }
+    });
 
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
